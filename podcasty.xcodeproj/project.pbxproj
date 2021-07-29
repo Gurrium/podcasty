@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30D3C6C26B2C17B0027F602 /* LargeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30D3C6A26B2C17B0027F602 /* LargeCell.swift */; };
+		E30D3C6D26B2C17B0027F602 /* LargeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E30D3C6B26B2C17B0027F602 /* LargeCell.xib */; };
 		E394892826B18824000D3238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394892726B18824000D3238 /* AppDelegate.swift */; };
 		E394892A26B18824000D3238 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394892926B18824000D3238 /* SceneDelegate.swift */; };
 		E394892C26B18824000D3238 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394892B26B18824000D3238 /* BrowseViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E30D3C6A26B2C17B0027F602 /* LargeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeCell.swift; sourceTree = "<group>"; };
+		E30D3C6B26B2C17B0027F602 /* LargeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LargeCell.xib; sourceTree = "<group>"; };
 		E394892426B18824000D3238 /* podcasty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podcasty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E394892726B18824000D3238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E394892926B18824000D3238 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 				E394894126B190E3000D3238 /* SectionHeaderView.xib */,
 				E394894426B1927F000D3238 /* MediumCell.swift */,
 				E394894526B1927F000D3238 /* MediumCell.xib */,
+				E30D3C6A26B2C17B0027F602 /* LargeCell.swift */,
+				E30D3C6B26B2C17B0027F602 /* LargeCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 				E394894726B1927F000D3238 /* MediumCell.xib in Resources */,
 				E394894326B190E3000D3238 /* SectionHeaderView.xib in Resources */,
 				E394892F26B18825000D3238 /* Main.storyboard in Resources */,
+				E30D3C6D26B2C17B0027F602 /* LargeCell.xib in Resources */,
 				E394893F26B189E6000D3238 /* EyeCatchCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +175,7 @@
 			files = (
 				E394892C26B18824000D3238 /* BrowseViewController.swift in Sources */,
 				E394892826B18824000D3238 /* AppDelegate.swift in Sources */,
+				E30D3C6C26B2C17B0027F602 /* LargeCell.swift in Sources */,
 				E394894226B190E3000D3238 /* SectionHeaderView.swift in Sources */,
 				E394892A26B18824000D3238 /* SceneDelegate.swift in Sources */,
 				E394894626B1927F000D3238 /* MediumCell.swift in Sources */,
