@@ -8,7 +8,7 @@
 import UIKit
 
 class LargeCell: UICollectionViewCell {
-    @IBOutlet weak var containerView: UIView! {
+    @IBOutlet var containerView: UIView! {
         didSet {
             containerView.layer.cornerRadius = 10
             containerView.layer.masksToBounds = true
